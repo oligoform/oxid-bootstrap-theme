@@ -1,3 +1,17 @@
+#brand-slider-container {
+    margin-bottom:30px;
+}
+
+.brand-slider a {
+    display:block;
+    padding:0 15px;
+    text-align:center;
+}
+
+.brand-slider img {
+    display:inline-block !important;
+}
+
 .rss-link {
     color: #FF9900;
     float: right;

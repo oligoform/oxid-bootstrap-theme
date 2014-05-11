@@ -1,14 +1,23 @@
+# Ignore everything
 /*
+
+# Preserve git files
 !.gitignore
-!LICENSE
-!README.md
+!.gitattributes
+!.gitkeep
 
-!application/
-application/*
-!application/views/
-application/views/*
-!application/views/bootstrap/
+# Preserve root folder contents
+!/README.md
+!/LICENSE
 
-!out/
-out/*
-!out/bootstrap/
+# Preserve application/views/bootstrap folder
+!/application/
+/application/*
+!/application/views/
+/application/views/*
+!/application/views/bootstrap/
+
+# Preserve out/bootstrap folder
+!/out/
+/out/*
+!/out/bootstrap/

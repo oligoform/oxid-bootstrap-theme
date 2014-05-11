@@ -14,19 +14,18 @@
     [{oxstyle include="css/owl.theme.css"}]
     [{oxscript include="js/owl.carousel.min.js" priority=10}]
     [{oxscript include="js/manufacturersslider.js" priority=10}]
-    <div id="brand-slider-container" class="carousel-wrapper">
-        <header>
-            <h2 class="page-header">Manufacturers</h2>
-        </header>
-        <div class="carousel-controls pull-right">
-            <i id="brand-slider-prev" class="fa fa-chevron-left"></i>
-            <i id="brand-slider-next" class="fa fa-chevron-right"></i>
-        </div>
-        <div class="sm-margin"></div><!-- space -->
+    <h2 class="page-header">Manufacturers</h2>
+    <div id="brand-slider-container" class="carousel carousel-wrapper">
         <div class="row">
             <div class="brand-slider owl-carousel">
                 [{$smarty.capture.slides}]
             </div><!-- End .brand-slider -->
         </div><!-- End .row -->
+        <a class="left carousel-control" id="brand-slider-prev" href="#brand-slider-container">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" id="brand-slider-next" href="#brand-slider-container">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div><!-- End #brand-slider-container -->
 [{/if}]

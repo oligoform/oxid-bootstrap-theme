@@ -19,5 +19,15 @@
             responsive: true,
             autoHeight : true
         }).data('navigationBtns', ['#brand-slider-prev', '#brand-slider-next']);
+
+        $("#brand-slider-prev").on('click', function(e) {
+            e.preventDefault();
+            brandSlider.trigger('owl.prev');
+        });
+
+        $("#brand-slider-next").on('click', function(e) {
+            e.preventDefault();
+            brandSlider.trigger('owl.next');
+        });
     }
 })(window.jQuery);

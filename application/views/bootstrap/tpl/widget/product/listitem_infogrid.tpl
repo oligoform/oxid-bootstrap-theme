@@ -50,7 +50,7 @@
             <input type="hidden" name="anid" value="[{$product->oxarticles__oxnid->value}]">
         [{/if}]
 
-        <div class="listDetails clearfix">
+        <div class="clearfix">
 
             [{block name="widget_product_listitem_infogrid_gridpicture"}]
                 <div class="infogrid-picture">
@@ -62,7 +62,7 @@
 
             [{block name="widget_product_listitem_infogrid_titlebox"}]
                 <h4>
-                    <a id="[{$iIndex}]" href="[{$_productLink}]" class="title" title="[{ $product->oxarticles__oxtitle->value}] [{$product->oxarticles__oxvarselect->value}]">
+                    <a id="[{$iIndex}]" href="[{$_productLink}]" title="[{ $product->oxarticles__oxtitle->value}] [{$product->oxarticles__oxvarselect->value}]">
                        [{$product->oxarticles__oxtitle->value}] [{$product->oxarticles__oxvarselect->value}]
                     </a>
                 </h4>

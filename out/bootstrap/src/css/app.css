@@ -1,3 +1,17 @@
+.rss-link {
+    color: #FF9900;
+    float: right;
+}
+
+.rss-link-small {
+    margin-top: 0.5em;
+    font-size: 0.7em;
+}
+
+.rss-link:hover {
+    color: #ED8F02;
+}
+
 #carousel-promoslider {
     margin-bottom: 10px;
 }

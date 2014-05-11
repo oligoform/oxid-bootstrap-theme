@@ -5,7 +5,7 @@
             [{oxmultilang ident=$_sHeaderIdent}]
             [{assign var='rsslinks' value=$oView->getRssLinks()}]
             [{if $rsslinks.topArticles}]
-                <a data-toggle="tooltip" data-placement="top" id="rssTopProducts" href="[{$rsslinks.topArticles.link}]" title="[{$rsslinks.topArticles.title}]">
+                <a class="rss-link" data-toggle="tooltip" data-placement="left" id="rssTopProducts" href="[{$rsslinks.topArticles.link}]" title="[{$rsslinks.topArticles.title}]">
                     <i class="fa fa-rss"></i>
                 </a>
                 [{oxscript add="(function(\$){\$('#rssTopProducts').tooltip();})(window.jQuery);"}]

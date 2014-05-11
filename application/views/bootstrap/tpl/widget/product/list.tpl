@@ -6,11 +6,11 @@
     [{if $header eq "light"}]
         <h3>[{$head}]</h3>
     [{else}]
-        <h2>
+        <h2 class="page-header">
             [{$head}]
             [{if $rsslink}]
-                <a data-toggle="tooltip" data-placement="top" id="[{$rssId}]" href="[{$rsslink.link}]" title="[{$rsslink.title}]">
-                    <i class="fa fa-rss"></i>
+                <a class="rss-link rss-link-small" data-toggle="tooltip" data-placement="left" id="[{$rssId}]" href="[{$rsslink.link}]" title="[{$rsslink.title}]">
+                    <i class="fa fa-rss-square"></i>
                 </a>
                 [{oxscript add="(function(\$){\$('#$rssId').tooltip();})(window.jQuery);"}]
             [{/if}]

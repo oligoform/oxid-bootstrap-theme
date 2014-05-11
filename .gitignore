@@ -1,0 +1,14 @@
+/*
+!.gitignore
+!LICENSE
+!README.md
+
+!application/
+application/*
+!application/views/
+application/views/*
+!application/views/bootstrap/
+
+!out/
+out/*
+!out/bootstrap/

@@ -1,3 +1,1 @@
-# Bootstrap theme for OXID eShop
-
-Currently just WIP
+# Project does not have any releases, it is just work in progress

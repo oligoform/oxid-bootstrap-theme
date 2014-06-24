@@ -21,3 +21,7 @@ gulp.task 'build', ['static', 'fonts']
 
 gulp.task 'default', ->
   gulp.start 'build'
+
+gulp.task 'watch', ->
+  gulp.watch('src/static/**').on 'change', ->
+    gulp.start 'static'

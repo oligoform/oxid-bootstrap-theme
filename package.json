@@ -1,0 +1,12 @@
+{
+  "name": "oxid-bootstrap-theme",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
